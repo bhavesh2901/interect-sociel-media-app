@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>onchange event</title>
+
+</head>
+<body id="c-change">
+    <h1>java-script onchange event</h1>
+    <select onchange="colorchange(this.value)">
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="yellow">yellow</option>
+        <option value="green">green</option>
+    </select>
+    <script>
+        function colorchange(color)
+        {
+            document.getElementById('c-change').style.background=color;
+        }
+    </script>
+</body>
+</html>

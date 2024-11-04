@@ -1,0 +1,83 @@
+
+body
+{
+    background:linear-gradient(rgba(21, 5, 82, 0.4),rgba(131, 13, 111, 0.4)), url("nature_landscape_winter_sky_snow_full_moon_trees_birds_evening_10733_1920x1200.jpg");
+    background-size: 100%;
+    font-family:sans-serif; 
+    color: white;
+    
+}
+p{
+    padding:2;
+    text-align: left;
+    margin-left:19px;
+    color:yellow;
+   
+}
+.div1{
+    color:rgb(242, 242, 247);
+    background:linear-gradient(rgba(121, 22, 146, 0.4),rgba(197, 55, 50, 0.4));    
+    border-radius: 40px;
+}
+.box
+{
+    background:linear-gradient(rgba(199, 48, 28, 0.4),rgba(47, 35, 160, 0.4));
+    border-radius:50px;
+    display: block;
+    max-width: 400;
+
+    justify-content: center;
+    text-align: center;
+    padding:10;
+    box-shadow: 3px 3px 3px 3px black;
+}
+.f-logo
+{
+    background:linear-gradient(rgba(163, 23, 121, 0.4),rgba(123, 106, 218, 0.4));    
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px 4px black;
+}
+
+input
+{
+    margin-top:5;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px 3px black;
+    padding:9px;
+    border-bottom: 2 solid white;
+}
+.f-mobail
+{
+    display: block;
+    width:100;
+}
+.submit:hover
+{
+    color: white;
+    background:linear-gradient(rgba(107, 12, 110, 0.4),rgba(25, 167, 37, 0.4));
+}
+.cencel:hover
+{
+    color: white;
+    background:linear-gradient(rgba(107, 12, 110, 0.4),rgba(25, 167, 37, 0.4));
+}
+
+.facebook:hover
+{
+    color: white;
+    background:linear-gradient(rgba(206, 13, 6, 0.4),rgba(171, 6, 221, 0.4));
+}
+.twitter:hover
+{
+    color: white;
+    background:linear-gradient(rgba(206, 13, 6, 0.4),rgba(171, 6, 221, 0.4)); 
+}
+.instagram:hover
+{
+    color: white;
+    background:linear-gradient(rgba(206, 13, 6, 0.4),rgba(171, 6, 221, 0.4));
+}
+a{
+    text-decoration: none;
+    color:white;
+}
